@@ -6,7 +6,7 @@ const config = {
         description:
             "Kami akan menikah dan mengundang Anda untuk turut merayakan momen istimewa ini.", // Nanti ini dibikin random
         // Groom's name
-        groomName: "Eko Nur Prasetyo",
+        groomName: "Eko Nur Prasetya",
         // Bride's name
         brideName: "Ulfa Safitri",
         // Groom's parents names
@@ -69,9 +69,9 @@ const config = {
         // Background music settings
         audio: {
             // Music file (choose one or replace with your own file)
-            src: "/audio/fulfilling-humming.mp3", // or /audio/nature-sound.mp3
+            src: "/audio/wedding-audio.mp3", // or /audio/nature-sound.mp3
             // Music title to display
-            title: "Fulfilling Humming", // or Nature Sound
+            title: "Wedding Audio", // or Nature Sound
             // Whether music plays automatically when website opens
             autoplay: true,
             // Whether music repeats continuously
