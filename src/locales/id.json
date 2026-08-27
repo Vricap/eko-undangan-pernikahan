@@ -1,0 +1,71 @@
+{
+  "app": {
+    "errorTitle": "Undangan Tidak Ditemukan",
+    "errorDesc": "Silakan periksa URL Anda atau hubungi penyelenggara.",
+    "preparing": "Menyiapkan"
+  },
+  "nav": {
+    "home": "Beranda",
+    "event": "Event",
+    "location": "Lokasi",
+    "gifts": "Hadiah",
+    "wishes": "Harapan"
+  },
+  "landing": {
+    "saveTheDate": "Catat Tanggal Penting Ini",
+    "openInvitation": "Buka Undangan"
+  },
+  "hero": {
+    "marriageTitle": "Maha suci Allah yang telah menciptakan mahluk-Nya berpasang-pasangan. Ya Allah, perkenalkanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami.",
+    "guestGreeting": "Kepada Yth.",
+    "guestSalutation": "Bapak/Ibu/Saudara/i",
+    "guestFallback": "Tamu Undangan",
+    "days": "Hari",
+    "hours": "Jam",
+    "minutes": "Menit",
+    "seconds": "Detik"
+  },
+  "events": {
+    "saveTheDate": "Catat Tanggal Penting Ini",
+    "title": "Rangkaian Acara Pernikahan",
+    "subtitle": " Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, insyaAllah kami akan menyelenggarakan acara:",
+    "addToCalendar": "Tambah ke Kalender",
+    "googleCalendar": "Google Calendar",
+    "appleCalendar": "Apple Calendar",
+    "outlookCalendar": "Outlook Calendar"
+  },
+  "location": {
+    "eventVenue": "Lokasi Acara",
+    "title": "Lokasi",
+    "viewMap": "Buka Peta"
+  },
+  "gifts": {
+    "subTitle": "Hadiah Pernikahan",
+    "title": "Berikan Hadiah",
+    "message": "Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:",
+    "messageCP": "Insya Allah, Kami Akan Menyalurkan Semua Hadiah yang Diberikan ke Beberapa Masjid dan Lembaga yang Membutuhkan",
+    "copy": "Salin",
+    "copied": "Tersalin!",
+    "accountName": "Atas Nama"
+  },
+  "wishes": {
+    "subTitle": "Kirimkan Doa dan Harapan Terbaik Anda",
+    "title": "Pesan dan Doa",
+    "emptyState": "Belum ada pesan. Jadilah yang pertama!",
+    "attending": "Akan hadir",
+    "notAttending": "Tidak bisa hadir",
+    "maybe": "Mungkin hadir",
+    "nameLabel": "Nama Kamu",
+    "namePlaceholder": "Masukan nama kamu...",
+    "attendanceLabel": "Apakah kamu hadir?",
+    "attendancePlaceholder": "Pilih kehadiran...",
+    "wishLabel": "Harapan kamu",
+    "wishPlaceholder": "Kirimkan harapan dan doa untuk kedua mempelai...",
+    "sending": "Sedang Mengirim...",
+    "sendButton": "Kirimkan Doa",
+    "thankYou": "Terima Kasih!",
+    "successMessage": "Pesan dan doa Anda telah terkirim. Kami sangat menghargai ucapan Anda.",
+    "oneMessageLimit": "Setiap tamu hanya dapat mengirim satu pesan.",
+    "close": "Tutup"
+  }
+}
