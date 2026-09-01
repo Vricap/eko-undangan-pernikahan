@@ -38,6 +38,7 @@ export default function Hero() {
   const CountdownTimer = ({ targetDate }) => {
     const calculateTimeLeft = useCallback(() => {
       const difference = +new Date(targetDate) - +new Date();
+      // const difference = new Date(targetDate) - new Date();
       let timeLeft = {};
 
       if (difference > 0) {
@@ -50,6 +51,24 @@ export default function Hero() {
       }
       return timeLeft;
     }, [targetDate]);
+
+    // const calculateTimeLeft = useCallback(() => {
+    //   const [year, month, day] = targetDate.split("-").map(Number);
+
+    //   // Tanggal lokal (00:00 waktu lokal)
+    //   const target = new Date(year, month - 1, day);
+
+    //   const difference = target.getTime() - Date.now();
+
+    //   if (difference <= 0) return {};
+
+    //   return {
+    //     [t("hero.days")]: Math.floor(difference / (1000 * 60 * 60 * 24)),
+    //     [t("hero.hours")]: Math.floor((difference / (1000 * 60 * 60)) % 24),
+    //     [t("hero.minutes")]: Math.floor((difference / (1000 * 60)) % 60),
+    //     [t("hero.seconds")]: Math.floor((difference / 1000) % 60),
+    //   };
+    // }, [targetDate, t]);
 
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 

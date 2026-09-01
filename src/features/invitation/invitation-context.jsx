@@ -22,14 +22,14 @@ export function InvitationProvider({ children }) {
 
     if (guestName) {
       // URLSearchParams otomatis decode %20 menjadi spasi
-      // storeGuestName(guestName.trim());
+      storeGuestName(guestName.trim());
     }
 
     // Bersihkan query parameter setelah disimpan
-    if (urlParams.has("to") && hasInvitationData()) {
-      const cleanPath = location.pathname || "/";
-      window.history.replaceState({}, "", cleanPath);
-    }
+    // if (urlParams.has("to") && hasInvitationData()) {
+    //   const cleanPath = location.pathname || "/";
+    //   window.history.replaceState({}, "", cleanPath);
+    // }
   }, [location.pathname, location.search]);
 
   return (
